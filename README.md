@@ -20,9 +20,10 @@ This project aims to **predict the Air Quality Index (AQI)** using various envir
    - Derived AQI as the target variable.
 3. **Model Training**:
    - Implemented **Random Forest Regressor** and **XGBoost Regressor**.
+   - Used **GridSearchCV** for hyperparameter tuning to find the best-performing model configurations.
    - Used train-test split to validate performance.
 4. **Model Evaluation**:
-   - Used metrics like **Mean Absolute Error (MAE)** and **R² Score** to evaluate models.
+   - Used **Mean Absolute Error (MAE)** metric to evaluate models.
    - Compared results from both algorithms.
 
 ## Results
