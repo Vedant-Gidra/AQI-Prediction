@@ -112,7 +112,7 @@ Based on performance and deployment simplicity, the **Random Forest model** was 
 
 ---
 
-## 🏁 Future Improvements  
+## Future Improvements  
 - Add **real-time AQI data visualization**.  
 - Integrate **API-based city-wise prediction**.  
 - Include **AQI category and health recommendations** in output.  
@@ -120,13 +120,13 @@ Based on performance and deployment simplicity, the **Random Forest model** was 
 
 ---
 
-## 📸 Sample Interface  
-<img width="727" height="710" alt="image" src="https://github.com/user-attachments/assets/399e9496-8d68-4ca7-beca-a00394bcc68c" />
+## Interface  
+<img width="727" height="710" alt="image" src="https://github.com/user-attachments/assets/2ae2efec-c5ed-4b95-80b9-aabaa97d7e72" />
 
 
 
 ---
 
-## 👨‍💻 Author  
+## Author  
 **Vedant Gidra**  
 B.Tech in Software Engineering  
