@@ -48,7 +48,8 @@ Based on performance and deployment simplicity, the **Random Forest model** was 
 ---
 
 ## Results
-<img width="754" height="266" alt="image" src="https://github.com/user-attachments/assets/a131c70e-787e-404a-9085-47a878c81dcf" />
+<img width="754" height="266" alt="image" src="https://github.com/user-attachments/assets/1ea681b0-ee80-4395-94bd-8ee71423928c" />
+
 
 - Both **XGBoost** and **Random Forest** achieved similar prediction accuracy with a **Mean Absolute Error (MAE)** of **0.0285**.  
 - However, **Random Forest** was chosen for deployment because:  
