@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AQI Prediction</title>
+    <style>
+        body {font-family: Arial; background-color: #f4f4f4; text-align: center; padding: 40px;}
+        .container {background-color: white; padding: 25px; border-radius: 10px; width: 400px; margin: auto;}
+        input {width: 80%; padding: 10px; margin: 5px 0;}
+        button {padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;}
+        button:hover {background-color: #0056b3; cursor: pointer;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Air Quality Index (AQI) Predictor</h2>
+        <form action="/predict" method="post">
+            <input type="text" name="PM25" placeholder="PM2.5 (µg/m³)" required>
+            <input type="text" name="PM10" placeholder="PM10 (µg/m³)" required>
+            <input type="text" name="NO2" placeholder="NO₂ (ppb)" required>
+            <input type="text" name="SO2" placeholder="SO₂ (ppb)" required>
+            <input type="text" name="CO" placeholder="CO (ppm)" required>
+            <input type="text" name="O3" placeholder="O₃ (ppb)" required>
+            <button type="submit">Predict AQI</button>
+        </form>
+        {% if prediction_text %}
+            <h3>{{ prediction_text }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
